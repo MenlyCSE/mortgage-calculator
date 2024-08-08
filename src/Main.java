@@ -15,5 +15,9 @@ public class Main {
         // Period (Years)
         // Prints Monthly payments for mortgage in currency
 
+        Scanner amountLoan = new Scanner(System.in); // input
+        System.out.print("Amount of loan: "); // prompt
+        String amountLoanRes = amountLoan.nextLine().trim(); // remove spaces & returns input
+        System.out.println(amountLoanRes);
     }
 }
